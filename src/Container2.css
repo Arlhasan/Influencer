@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.middle {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+  
+.left,
+.middle,
+.right {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+  
+.left {
+    flex: 1;
+}
+  
+.middle {
+    flex: 2;
+}
+  
+.right {
+    flex: 1;
+    text-align: right;
+}
+  
+
+.box1,
+.box2,
+.box3,
+.box4 {
+   padding: 20px;
+   /* border: 1px solid #ccc; */
+}
+
+/* FB */
+.box1 {
+   width: auto;
+   height: auto;
+   flex: 1;
+   border: 1px solid black;
+   text-align: center;
+}
+/* Insta */
+.box2 {
+    width: auto;
+    height: auto;
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+}
+/* YT */
+.box3 {
+    width: auto;
+    height: auto;
+    flex: 1;
+    text-align: center;
+    border: 1px solid black;
+}
+/* Snapchat */
+.box4 {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
+}
+
+.grid-container_Bio {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+}
+
+.grid-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    gap: 15px;
+}
